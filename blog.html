@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anmol Garg | CS Student | Frontend Developer | Designer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/anmolgxrg/me/main/images/anmoji.png">
+<link href="stylesheet.css" type="text/css" rel="stylesheet">
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+	float: left;
+	}
+.col-3 {width: 25%;
+	float: right;
+}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;
+         float: left;
+  }
+  .col-8 {width: 66.66%;
+  float: left;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;
+         float: left;
+   }
+  .col-11 {
+	  width: 91.66%;}
+  .col-12 {
+	  width: 100%;}
+	
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #7A3CDD;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 20px;
+  padding-top: 10px;
+  box-shadow: 2px 7px 8px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 7px;
+  background-color: #F5F4F8;
+  color: #000000;
+  border-radius:7px;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+  color:#ffffff;
+}
+
+.dark-mode {
+  background-color: #201F22;
+  color: #FFFFFF;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+.rowt {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.columnt {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.columnt img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+  .col-10 {
+	width: 100%;float:left;
+	}
+  .col-4 {
+	  width: 100%;
+	  float: left;
+}
+  .col-2 {
+	  width: 100%;
+	  float: left;
+}
+}
+
+.active {
+	display: block;
+}
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N62CNQ9');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N62CNQ9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="header">
+
+  <h1>Anmol Garg</h1>
+  <p>Manipal ICAS CS Class of 2023</p>
+  <button onclick="myFunction()">Dark mode</button>
+ </div>
+
+<br>
+
+<div class="row">
+
+  <div class="col-2 menu">
+    <ul>
+  <li class="tablinks" onclick="openCity(event, 'About')">About</li>
+  <li class="tablinks" onclick="openCity(event, 'Work')">Work</li>
+  <li class="tablinks" onclick="openCity(event, 'Contact')">Contact</li>
+    </ul>
+  </div>
+
+  <div class="col-10">
+    
+	<div id="About" class="tabcontent active">
+	<div class="col-8">
+	<h1>About</h1>
+    <p>Hi, I am Anmol and I am interested in Technology, Business, and Design. Also, I deeply care about the environment and climate change.</p></div>
+	<div class="col-4">
+	<img src="images/about.png"  height="290px" width="360px"></div>
+    </div>
+  
+  	<div id="Work" class="tabcontent">
+	<div class="col-8">
+	<h1>Work</h1>
+    <p>Here are few examples of my work.</p></div>
+	<div class="col-4">
+	<img src="images/work.png"  height="200px" width="350px"></div><br><br>
+	<div class="rowt"> 
+  <div class="columnt">
+    <img src="images/ayuvends.jpg" style="width:100%">
+    <img src="images/Ganesh-Chathurthi-Pace-Biotech.jpg" style="width:100%">
+    <img src="images/HIvends-Ganesh-Chaturthi.jpg" style="width:100%">
+    <img src="images/Hivends-jnmshtmi.jpg" style="width:100%">   
+    <img src="images/opthavends-mydriatic.jpg" style="width:100%">
+  </div>
+  <div class="columnt">
+    <img src="images/eye-lubricants-comapny-opthavends-fc.jpg" style="width:100%">
+    <img src="images/fawn-rakhi.jpg" style="width:100%">
+    <img src="images/knors-pharma.jpg" style="width:100%">
+    <img src="images/opthavends-ganesh-chathurthi.jpg" style="width:100%">    
+    <img src="images/opthavends-jnmshtmi.jpg" style="width:100%">
+  </div>  
+  <div class="columnt">
+    <img src="images/pharmavends-fb-2.jpg" style="width:100%">
+    <img src="images/pharmavends-jnmshtmi.jpg" style="width:100%">
+    <img src="images/MAYGRISS-RAKHI.jpg" style="width:100%">
+    <img src="images/PACE-BIOTECH-INJECTION-MN-FB.jpg" style="width:100%">
+  </div>
+		
+</div>
+  <p> <i>All images are subject to copyright</i></p>
+    </div>
+	
+	<div id="Contact" class="tabcontent">
+	<div class="col-8">
+	<h1>Contact</h1>
+    <p>Feel free to reach me through email or linkedin</p><br>
+	<ul>
+	<li>Email: a.anmolgarg@gmail.com</li><br>
+	<li><a href="https://www.linkedin.com/in/anmlgrg/">Linkedin</a></li>
+	</ul>
+	</div>
+	<div class="col-4">
+	<img src="images/contact.png"  height="300px" width="400px"></div><br><br>
+    </div>
+  
+  </div>
+
+  
+</div>
+
+<br><br><br>
+<br><br>
+
+<footer>
+<hr>
+<center><p>Made by <em>Anmol Garg</em>, Hosted on Github <img src="images/glogo.png" width="30px" height="30px"> </p>
+</center>
+<a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="19937be2d3ae9b1c5fb83a41e9136a25|5|page|10|rgb(39, 33, 33);|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+</footer>
+
+
+<script>
+
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>
